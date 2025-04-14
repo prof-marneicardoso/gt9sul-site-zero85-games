@@ -59,7 +59,7 @@
 
             <!-- Contato -->
             <section id="contato">
-                <form action="#">
+                <form action="#" method="post">
                     <legend>
                         <h2>Entre em contato conosco:</h2>
                     </legend>
@@ -67,15 +67,15 @@
                         <div class="group">
                             <div class="block">
                                 <input type="text" placeholder="Nome">
-                                <input type="tel" placeholder="Telefone">
+                                <input type="tel" placeholder="Telefone" required>
                             </div>
                             <div class="block">
-                                <input type="email" placeholder="Email">
+                                <input type="email" placeholder="Email" required>
                                 <input type="text" placeholder="Assunto">
                             </div>
                         </div>
-                        <textarea></textarea>
-                        <button></button>
+                        <textarea placeholder="Mensagem" rows="5" required></textarea>
+                        <button type="submit">Enviar Mensagem</button>
                     </fieldset>
                 </form>
             </section>
