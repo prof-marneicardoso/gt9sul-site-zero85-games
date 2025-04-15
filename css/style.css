@@ -126,9 +126,17 @@ article div * {
     border: solid red;
 }
 
+
+form * {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+}
 form {
     width: 70%;
     margin: 0 auto;
+    background-color: #343434;
+    padding: 1rem 4rem;
+    border-radius: 1rem;
 
     fieldset {
         border: none;
@@ -137,6 +145,7 @@ form {
         flex-direction: column;
         gap: 0.6rem;
         align-items: center;
+        
 
         .group {
             display: flex;
@@ -152,10 +161,15 @@ form {
                 input {
                     height: 40px;
                     border-radius: 0.3rem;
+                    outline-color: #0dbcae;
+                    padding-left: 0.5rem;
+                    background-color: #343434;
+                    border-color: #abaaaa;
+                    color: #f9f9f9;
 
                     &::placeholder {
                         font-size: 1rem;
-                        padding-left: 0.5rem;
+                        color: #959595;
                     }
                     
                 }
@@ -168,6 +182,15 @@ form {
             border-radius: 0.3rem;
             font-size: 1rem;
             padding: 0.5rem;
+            outline-color: #0dbcae;
+            background-color: #343434;
+            border-color: #abaaaa;
+            color: #f9f9f9;
+            resize: none;
+            
+            &::placeholder {
+                color: #959595;
+            }
         }
 
         button {
