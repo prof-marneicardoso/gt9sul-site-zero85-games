@@ -1,7 +1,5 @@
 # 🌐 Projeto de site em HTML e CSS para o **Desafio #1** 🚀
 
-![Preview do projeto](https://media.giphy.com/media/l0MYC0LajbaPoEADu/giphy.gif) 
-
 ![Badge HTML](https://img.shields.io/badge/HTML5-estruturado-orange?style=for-the-badge&logo=html5)
 ![Badge CSS](https://img.shields.io/badge/CSS3-estilizado-blue?style=for-the-badge&logo=css3)
 ![Badge Projeto](https://img.shields.io/badge/Projeto%20Frontend-Iniciante-green?style=for-the-badge&logo=codepen)
@@ -29,3 +27,4 @@ O objetivo foi construir uma landing page estática aplicando conceitos fundamen
 ├── css/
 │   └── style.css
 └── assets/
+```
