@@ -1,5 +1,5 @@
 /* Importa a fonte Montserrat do Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 /* Reset */
 * {
@@ -9,7 +9,7 @@
 }
 
 html {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 16px;
     scroll-behavior: smooth;
 }
@@ -34,7 +34,7 @@ header {
     left: 0;
     height: 100%;
     width: 100%;
-    background-image: url('../assets/banner-zero85-games.jpg');
+    background-image: url("../assets/banner-zero85-games.jpg");
     background-size: cover;
     filter: brightness(30%);
 }
@@ -126,9 +126,8 @@ article div * {
     border: solid red;
 }
 
-
 form * {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 1rem;
 }
 form {
@@ -145,7 +144,6 @@ form {
         flex-direction: column;
         gap: 0.6rem;
         align-items: center;
-        
 
         .group {
             display: flex;
@@ -171,7 +169,6 @@ form {
                         font-size: 1rem;
                         color: #959595;
                     }
-                    
                 }
             }
         }
@@ -187,7 +184,7 @@ form {
             border-color: #abaaaa;
             color: #f9f9f9;
             resize: none;
-            
+
             &::placeholder {
                 color: #959595;
             }
@@ -220,6 +217,7 @@ form {
 }
 
 footer {
+    font-size: 1.1rem;
     height: 20rem;
     background-color: #000000;
     color: #999999;
@@ -228,11 +226,23 @@ footer {
     display: flex;
     flex-direction: row;
     gap: 2rem;
-}
 
-footer div {
-    height: auto;
-    width: 100%;
+    div {
+        height: auto;
+        width: 100%;
 
-    border: solid yellow;
+        border: solid yellow;
+    }
+
+    a {
+        text-decoration: underline;
+        color: #999999;
+        font-size: 1rem;
+        font-weight: 400;
+        padding: 0;
+        
+        &:hover {
+            color: #f9f9f9;
+        }
+    }
 }
