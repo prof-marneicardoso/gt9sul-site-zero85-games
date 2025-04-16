@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Zero85 Games</title>
+        <!-- Favicon (ícone da página) -->
+        <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
+        <!-- CSS Externo -->
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
+    <body>
+        <!-- Menu de opções -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#mapa">Mapa</a></li>
+            </ul>
+        </nav>
+
+        <header>
+            <h1>Zero85</h1>
+            <h2>GAMES</h2>
+            <div class="cover">
+                <!-- Aqui vai a imagem de fundo do banner no CSS -->
+            </div>
+        </header>
+
+        <main>
+            <!-- Bem-vindo(a) -->
+            <h1>Cadastre-se</h1>
+
+            <form>
+                <input type="text" placeholder="Nome completo"><br><br>
+                <input type="email" placeholder="E-mail"><br><br>
+                <input type="password" placeholder="Senha"><br><br>
+                <input type="tel" placeholder="Telefone"><br><br>
+
+                <hr><br><br>
+                <input type="text" id="cep" placeholder="Informe seu CEP"><br><br>
+                <button id="btnBuscarCEP" type="button">Buscar CEP</button>
+
+                <input type="number" placeholder="Número"><br><br>
+                <input type="text" placeholder="Complemento"><br><br>
+                
+                <!-- Estes campos serão preenchidos automaticamente -->
+                <input type="text" placeholder="Logradouro" disabled id="logradouro"><br><br>
+                <input type="text" placeholder="Bairro" disabled id="bairro">
+                <input type="text" placeholder="Município" disabled id="localidade">
+                <input type="text" placeholder="UF" disabled id="uf">
+                <input type="text" placeholder="Região" disabled id="regiao">
+
+
+                <!-- Retirar os BR -->
+                <br><br>
+                <Label for="cv">Envie seu Currículo</Label>
+                <input type="file" id="cv">
+            </form>
+        </main>
+
+        <footer>
+            <div>
+                <h3>Zero85-Games</h3>
+
+                <p>Visite nossa loja!</p>
+
+                <p>(85) 99912-5023</p>
+
+                <p>contato@zero85games.com.br</p>
+
+                <p>
+                    <a href="cadastro.html">Trabalhe conosco</a>
+                <!-- </p> -->
+            </div>
+
+            <div>Parceiros</div>
+
+            <div>Redes Sociais</div>
+        </footer>
+
+    </body>
+    <!-- Arquivo JavaScript -->
+    <script src="./js/app.js"></script>
+</html>
