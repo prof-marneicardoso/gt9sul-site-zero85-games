@@ -273,5 +273,93 @@ footer {
         justify-content: space-between;
         justify-content: space-around;
         justify-content: space-evenly;
+
+
+    }
+}
+
+.menu-responsivo{
+
+    i {
+        font-size: 3rem;
+    }
+}
+
+
+
+/* --- Responsividade (Media Queries) */
+
+/* XS (Extra Small) - Celular Portrait (retrato) */
+@media (max-width: 576px) {
+    nav {
+        background-color: #ffb700;
+
+        .menu {
+            display: none;
+        }
+
+        .menu-responsivo {
+            display: block;
+        }
+    }
+}
+
+/* SM (Small) - Celular Landscape (paisagem) */
+@media (min-width: 576px) {
+    nav {
+        background-color: #007bff;
+
+        .menu {
+            display: none;
+        }
+
+        .menu-responsivo {
+            display: block;
+        }
+    }
+}
+
+/* MD (Medium) - Tablet */
+@media (min-width: 768px) {
+    nav {
+        background-color: #ae00ff;
+
+        .menu {
+            display: none;
+        }
+
+        .menu-responsivo {
+            display: block;
+        }
+    }
+}
+
+/* LG (Large) - Notebooks */
+@media (min-width: 992px) {
+    nav {
+        background-color: #99ff00;
+
+        .menu {
+            display: flex;
+        }
+
+        .menu-responsivo {
+            display: none;
+        }
+    }
+}
+
+/* XL (Extra arge) - Desktop */
+@media (min-width: 1200px) {
+    nav {
+        background-color: #10101db6;
+
+        .menu {
+            display: flex;
+        }
+
+        .menu-responsivo {
+            display: none;
+        }
     }
 }
