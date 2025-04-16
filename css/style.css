@@ -270,4 +270,14 @@ footer {
     }
 }
 
+/* --- Responsividade (Media Queries) --- */
 
+/* XS (Extra Small) - Celular Portrait) - 576px */
+@media (max-width: 36rem) {
+    nav {
+        background-color: #ffb700;
+    }
+}
+/*  */
+/*  */
+/*  */
