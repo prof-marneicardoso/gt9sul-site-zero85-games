@@ -16,6 +16,10 @@ function buscarCEP(cep)  {
             console.log(dados);
             document.getElementById('logradouro').value = dados.logradouro;
             document.getElementById('bairro').value = dados.bairro;
+            document.getElementById('localidade').value = dados.localidade;
+            document.getElementById('estado').value = dados.estado;
+            document.getElementById('uf').value = dados.uf;
+            document.getElementById('regiao').value = dados.regiao;
         }
     )
 }
