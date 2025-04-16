@@ -230,8 +230,6 @@ footer {
     div {
         height: auto;
         width: 100%;
-
-        border: solid yellow;
     }
 
     a {
@@ -245,4 +243,69 @@ footer {
             color: #f9f9f9;
         }
     }
+
+    i{
+
+        
+
+    }
+    #face{
+        color:gray ;
+        font-size: 3rem;
+        border-radius: 50%;
+        border: solid 0.25rem gray;
+        &:hover{
+            transition: 0.5s;
+            color: #0065f7;
+            border-color: #0065f7;
+        }
+    }
+    #insta{
+        color:gray ;
+        font-size: 3rem;
+        border-radius: 50%;
+        border: solid 0.25rem gray;
+        &:hover{
+            transition: 0.5s;
+            color: #e54d4a;
+            border-color: #e54d4a;
+        }
+    }
+    #x{
+        color:gray ;
+        font-size: 3rem;
+        border-radius: 50%;
+        border: solid 0.25rem gray;
+        &:hover{
+            transition: 0.5s;
+            color: #f7f7f7;
+            border-color: #f7f7f7;
+        }
+    }
+    .redes-sociais{
+        h3{
+            text-align: center;
+        }
+        div{
+            display: flex;
+            justify-content: space-between;
+            justify-content: space-around;
+            justify-content: space-evenly;
+        }
+    }
 }
+
+/* Rensponsive */
+/* XS-Celular-Portrait(retrato)max-576px */
+@media (max-width:36rem){
+    nav{
+        background-color: yellow;
+    }
+}
+/* SM-Celular-Landscape(paisagem)min-576 */
+
+/* MD-Tablet-max-768px */
+
+/* LG-Notebook-min-992 */
+
+/* XL-Desktop-min-1200px */
