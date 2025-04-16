@@ -273,8 +273,6 @@ footer {
         justify-content: space-between;
         justify-content: space-around;
         justify-content: space-evenly;
-
-
     }
 }
 
@@ -300,6 +298,11 @@ footer {
 
         .menu-responsivo {
             display: block;
+        }
+
+        footer {
+            flex-direction: column;
+            /* VERIFICAR */
         }
     }
 }
