@@ -130,6 +130,7 @@ form * {
     font-family: "Montserrat", sans-serif;
     font-size: 1rem;
 }
+
 form {
     width: 70%;
     margin: 0 auto;
@@ -231,7 +232,7 @@ footer {
         height: auto;
         width: 100%;
 
-        border: solid yellow;
+        /* border: solid red; */
     }
 
     a {
@@ -244,5 +245,33 @@ footer {
         &:hover {
             color: #f9f9f9;
         }
+    }
+
+    i {
+        color: #999999;
+        font-size: 3rem;
+        border: solid 0.25rem #999999;
+        border-radius: 50%;
+        padding: 5px;
+
+        /* Ao passar o mouse sobre */
+        &:hover {
+            color: #ffc928;
+            border-color: #ffb700;
+            cursor: pointer;
+        }
+    }
+}
+
+.redes-sociais {
+    h3 {
+        text-align: center;
+    }
+
+    div {
+        display: flex;
+        justify-content: space-between;
+        justify-content: space-around;
+        justify-content: space-evenly;
     }
 }
