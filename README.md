@@ -29,3 +29,4 @@ O objetivo foi construir uma landing page estática aplicando conceitos fundamen
 ├── css/
 │   └── style.css
 └── assets/
+```
