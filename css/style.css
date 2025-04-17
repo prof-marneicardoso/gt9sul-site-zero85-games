@@ -1,6 +1,16 @@
 /* Importa a fonte Montserrat do Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
+/* Variáveis */
+:root {
+    /* Paletas de cores */
+    /* --cor-01: #ffb700; */
+    --cor-01: #ff7300;
+    --cor-02: #10101db6;
+    --cor-03: #0b5d4b;
+    --cor-03: #f9f9f9;
+}
+
 /* Reset */
 * {
     margin: 0;
@@ -17,7 +27,8 @@ html {
 header {
     height: 30rem;
     font-size: 2.5rem;
-    color: #ffb700;
+    /* color: #ffb700; */
+    color: var(--cor-01);
     text-shadow: 0px 0px 10px #0b5d4b;
     overflow: hidden;
 
@@ -256,8 +267,10 @@ footer {
 
         /* Ao passar o mouse sobre */
         &:hover {
-            color: #ffc928;
-            border-color: #ffb700;
+            /* color: #ffc928; */
+            color: var(--cor-01);
+            /* border-color: #ffb700; */
+            border-color: var(--cor-01);
             cursor: pointer;
         }
     }
@@ -283,6 +296,33 @@ footer {
     }
 }
 
+/* Botão WhatsApp */
+.whats {
+    position: fixed;
+    z-index: 100;
+    bottom: 2rem;
+    right: 2rem;
+
+    /* background-color: #707865; */
+    border-radius: 50%;
+
+
+    i {
+        font-size: 3.5rem;
+        color: #99ff00;
+        color: #f9f9f9;
+        background-color: #1ec50f;
+        border-radius: 50%;
+        padding: 0.3rem;
+        transition: 0.5s;
+        
+        &:hover {
+            background-color: #1edf0c;
+            cursor: pointer;
+        }
+    }
+}
+
 
 
 /* --- Responsividade (Media Queries) */
@@ -290,7 +330,8 @@ footer {
 /* XS (Extra Small) - Celular Portrait (retrato) */
 @media (max-width: 576px) {
     nav {
-        background-color: #ffb700;
+        /* background-color: #ffb700; */
+        background-color: var(--cor-01);
 
         .menu {
             display: none;
@@ -364,5 +405,34 @@ footer {
         .menu-responsivo {
             display: none;
         }
+    }
+}
+
+/* Animações em CSS */
+
+.box {
+    height: 3rem;
+    width: 3rem;
+    background-color: var(--cor-01);
+    animation: caixa 1s infinite forwards;
+}
+
+/* .box:hover {
+} */
+
+@keyframes caixa {
+    0% {
+        transform: translateX(0);
+        transform: rotate(0);
+    }
+
+    50% {
+        transform: translateX(50rem);   
+        /* transform: rotate(360deg); */
+    }
+
+    100% {
+        transform: translateX(0);
+        transform: rotate(360deg);
     }
 }
